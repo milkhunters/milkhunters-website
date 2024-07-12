@@ -1,9 +1,8 @@
-import { cn } from '@/lib/utils';
 import Link from 'next/link';
 
-export function Logo({ classnames }: { classnames: string }) {
+export function Logo() {
   return (
-    <Link href="/" className={cn('text-3xl font-semibold ', classnames)}>
+    <Link href="/" className={'text-3xl font-semibold '}>
       milkhunters
     </Link>
   );
